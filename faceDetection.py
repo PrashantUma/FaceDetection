@@ -4,7 +4,7 @@ import cv2,time
 video=cv2.VideoCapture(cv2.CAP_DSHOW)
 time.sleep(10)
 a=1
-face_cascade=cv2.CascadeClassifier("C:\\Users\\prashant\\PycharmProjects\\object detection\\venv\\cascade.xml")
+face_cascade=cv2.CascadeClassifier("cascade.xml")
 
 while(True):
     a+=1
